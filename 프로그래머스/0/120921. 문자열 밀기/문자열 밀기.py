@@ -12,13 +12,9 @@ def solution(A, B):
         check_list.append(check)
 
     if B in check_list:
+        # B와 같은 인덱스가 여러 개 있는 경우 가장 큰 수 = 가장 적게 움직이는 수를 반환
         rest_list = list(filter(lambda x: check_list[x] == B, range(len(check_list))))
-        # print(max(rest_list))
         answer = len(B) - (max(rest_list) + 1)
-        # if check_list.index(B)+1 <= len(B)-(check_list.index(B)+1):
-        #     answer = check_list.index(B)+1
-        # else:
-        #     answer = len(B) - (check_list.index(B)+1)
     else:
         answer += -1
     return answer
