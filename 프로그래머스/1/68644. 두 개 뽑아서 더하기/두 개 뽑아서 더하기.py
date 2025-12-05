@@ -1,6 +1,7 @@
 from itertools import combinations as c
 
 def solution(numbers):
+    # 조합을 이용해서 두개의 수를 뽑음
     answer = []
     number_list = []
     for a,b in c(numbers,2):
