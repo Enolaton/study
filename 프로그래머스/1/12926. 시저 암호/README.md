@@ -1,6 +1,6 @@
 # [level 1] 시저 암호 - 12926 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12926#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12926) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 11월 29일 11:39:48
+2025년 12월 05일 09:03:10
 
 ### 문제 설명
 
