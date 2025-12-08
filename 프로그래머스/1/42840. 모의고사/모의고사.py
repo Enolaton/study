@@ -16,4 +16,4 @@ def solution(answers):
     for i in range(1,4):
         if answer[i-1] == max(answer):
             result.append(i)
-    return sorted(result)
+    return result
