@@ -1,5 +1,6 @@
 def solution(cards1, cards2, goal):
     answer = 'Yes'
+    
     for _ in range(len(goal)):
         if cards1 == []:
             if goal[0] == cards2[0]:
