@@ -1,6 +1,7 @@
 def solution(k, score):
     answer = []
     score_list = []
+    
     for day in range(1,len(score)+1):
         score_list.append(score[day-1])
         score_list = sorted(score_list)
