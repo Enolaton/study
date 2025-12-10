@@ -20,6 +20,7 @@ def solution(n, arr1, arr2):
         result = '#'*n
         for column in range(n):
             if arr1_binary[row][column] == '0' and arr2_binary[row][column] == '0':
-                result = result[:column]+' '+result[column+1:] # 슬라이싱을 이용해서 바뀐 문자열 변환
+                # 슬라이싱을 이용해서 바뀐 문자열 변환
+                result = result[:column]+' '+result[column+1:] 
         answer.append(result)
     return answer
