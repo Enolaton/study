@@ -1,6 +1,7 @@
 def solution(s):
     answer = []
     jc_list = s.split(' ')
+    
     for word in jc_list:
         tmp = ''
         for c in range(len(word)):
