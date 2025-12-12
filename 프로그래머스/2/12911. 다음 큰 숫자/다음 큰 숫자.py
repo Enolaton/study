@@ -7,7 +7,6 @@ def solution(n):
         n += 1
         n_one_counter = bin(n)[2:].count('1')   # bin(n)[2:] -> str
         if n_one_counter == one_counter: # 1의 개수가 동일한 경우
-            # if int(bin(n)[2:]) > num
             answer = n
             break
     
